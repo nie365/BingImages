@@ -139,8 +139,7 @@ class Crawler(object):
                         break
                     if 200 <= resp.status_code < 300:
                         img_raw = resp.content
-                        # with open(f'../img/{self.date}/{self.name}_{img_size}.jpg', 'wb') as f:
-                        with open(f'../img/{self.date}/{img_size}.jpg', 'wb') as f:
+                        with open(f'../img/{self.date}/{self.name}_{img_size}.jpg', 'wb') as f:
                             f.write(img_raw)
                         data_url[img_size] = url
 
@@ -209,8 +208,7 @@ class Crawler(object):
             multipart_form_data = {
                 'chat_id': (None, channel_id_archive),
                 'document': (f'{self.name}_{photo_size}.jpg',
-                  #           open(f'../img/{self.date}/{self.name}_{photo_size}.jpg', 'rb')),
-                             open(f'../img/{self.date}/{photo_size}.jpg', 'rb')),
+                             open(f'../img/{self.date}/{self.name}_{photo_size}.jpg', 'rb')),
                 'caption': (None, caption),
                 'parse_mode': (None, 'HTML')
             }
@@ -269,8 +267,7 @@ class Crawler(object):
         multipart_form_data = {
             'chat_id': (None, channel_id_main),
             'photo': (f'{self.name}_{photo_size}.jpg',
-             #         open(f'../img/{self.date}/{self.name}_{photo_size}.jpg', 'rb')),
-                      open(f'../img/{self.date}/{photo_size}.jpg', 'rb')),
+                      open(f'../img/{self.date}/{self.name}_{photo_size}.jpg', 'rb')),
             'caption': (None, caption),
             'parse_mode': (None, 'HTML'),
             'disable_web_page_preview': (None, True)
