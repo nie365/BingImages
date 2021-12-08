@@ -14,6 +14,12 @@ Bing Homepage Images / Image of the day / Wallpaper
 
 ![the latest image](https://github.com/miaotony/BingImages/raw/archive/img/latest/1080p.jpg)
 
+### CDN
+```
+![the latest image](https://cdn.jsdelivr.net/gh/nie365/BingImages@archive/img/latest/1080p.jpg)
+![the latest image](https://cdn.jsdelivr.net/gh/nie365/BingImages@archive/img/latest/UHD.jpg)
+![the latest image](https://cdn.jsdelivr.net/gh/nie365/BingImages@archive/img/latest/mobile.jpg)
+
 ### **Telegram channel**   
 
 Everyday push channel:  
