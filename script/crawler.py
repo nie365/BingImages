@@ -139,7 +139,8 @@ class Crawler(object):
                         break
                     if 200 <= resp.status_code < 300:
                         img_raw = resp.content
-                        with open(f'../img/{self.date}/{self.name}_{img_size}.jpg', 'wb') as f:
+                        # with open(f'../img/{self.date}/{self.name}_{img_size}.jpg', 'wb') as f:
+                        with open(f'../img/{self.date}/{img_size}.jpg', 'wb') as f:
                             f.write(img_raw)
                         data_url[img_size] = url
 
