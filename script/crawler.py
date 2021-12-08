@@ -257,14 +257,14 @@ class Crawler(object):
             photo_size = '1366x768'
         caption = '<b>' + self.replace_entities(self.data['copyright']) + '\n' + \
             self.replace_entities(self.data['copyright_cn']) + '</b>\n' + \
-            f'<a href="https://t.me/BingImageArchive/{str(tg_story_message_id)}">Story</a>'
+            f'<a href="https://t.me/NamiPicture/{str(tg_story_message_id)}">Story</a>'
 
         for i, v in enumerate(self.img_push_size_list):
             if v in tg_archive.keys():
                 message_id = tg_archive[v].get('message_id')
                 display_name = self.img_push_name_list[i]
                 caption += ' | '
-                caption += f'<a href="https://t.me/BingImageArchive/{str(message_id)}">{display_name}</a>'
+                caption += f'<a href="https://t.me/NamiPicture/{str(message_id)}">{display_name}</a>'
         multipart_form_data = {
             'chat_id': (None, channel_id_main),
             'photo': (f'{self.name}_{photo_size}.jpg',
