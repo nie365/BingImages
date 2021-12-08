@@ -12,22 +12,22 @@ Bing Homepage Images / Image of the day / Wallpaper
 
 ## Preview
 #### 1080P
-![the latest image](https://github.com/miaotony/BingImages/raw/archive/img/latest/1080p.jpg)
+![the latest image](https://github.com/nie365/BingImages/raw/archive/img/latest/1080p.jpg)
 
-#### UHD
-![the latest image](https://github.com/miaotony/BingImages/raw/archive/img/latest/UHD.jpg)
+#### 原图
+![the latest image](https://github.com/nie365/BingImages/raw/archive/img/latest/UHD.jpg)
 
 #### Mobile
-![the latest image](https://github.com/miaotony/BingImages/raw/archive/img/latest/mobile.jpg)
+![the latest image](https://github.com/nie365/BingImages/raw/archive/img/latest/mobile.jpg)
 
 ### CDN
 ```
 ![the latest image](https://cdn.jsdelivr.net/gh/nie365/BingImages@archive/img/latest/1080p.jpg)
-![the latest image](https://cdn.jsdelivr.net/gh/nie365/BingImages@archive/img/latest/UHD.jpg)
 ![the latest image](https://cdn.jsdelivr.net/gh/nie365/BingImages@archive/img/latest/mobile.jpg)
 ```
+#### 1080P
 ![the latest image](https://cdn.jsdelivr.net/gh/nie365/BingImages@archive/img/latest/1080p.jpg)
-![the latest image](https://cdn.jsdelivr.net/gh/nie365/BingImages@archive/img/latest/UHD.jpg)
+#### Mobile
 ![the latest image](https://cdn.jsdelivr.net/gh/nie365/BingImages@archive/img/latest/mobile.jpg)
 
 ### **Telegram channel**   
