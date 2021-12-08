@@ -158,6 +158,11 @@ class Crawler(object):
                             # Save the latest image to `1080p.jpg`
                             with open(f'../img/latest/1080p.jpg', 'wb') as f:
                                 f.write(img_raw)
+                                
+                        if img_size == '1080x1920':
+                            # Save the latest image to `mobile.jpg`
+                            with open(f'../img/latest/mobile.jpg', 'wb') as f:
+                                f.write(img_raw)                                
                         break
                 except Exception as e:
                     print('\033[31m[ERROR]', e,
