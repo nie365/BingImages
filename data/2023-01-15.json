@@ -1,0 +1,87 @@
+{
+  "name": "OHR.Turku_ZH-CN6008877545",
+  "urlbase": "/th?id=OHR.Turku_ZH-CN6008877545",
+  "copyright_cn": "横贯图尔库的奥拉河, 芬兰 (© Jarmo Piironen/Alamy)",
+  "copyrightlink": "/search?q=%e5%a5%a5%e6%8b%89%e6%b2%b3&form=hpcapt&mkt=zh-cn",
+  "desc": "The Turku Cathedral rises above the frosted forests near the mouth of the Aura River, which runs through the middle of Turku, Finland.",
+  "copyright": "Aura River in Turku, Finland (© Jarmo Piironen/Alamy)",
+  "raw_size": "7007x3941",
+  "url": {
+    "UHD": "https://www.bing.com/th?id=OHR.Turku_ZH-CN6008877545_UHD.jpg",
+    "1920x1080": "https://www.bing.com/th?id=OHR.Turku_ZH-CN6008877545_1920x1080.jpg",
+    "1024x768": "https://www.bing.com/th?id=OHR.Turku_ZH-CN6008877545_1024x768.jpg",
+    "1366x768": "https://www.bing.com/th?id=OHR.Turku_ZH-CN6008877545_1366x768.jpg",
+    "800x480": "https://www.bing.com/th?id=OHR.Turku_ZH-CN6008877545_800x480.jpg",
+    "1080x1920": "https://www.bing.com/th?id=OHR.Turku_ZH-CN6008877545_1080x1920.jpg",
+    "480x800": "https://www.bing.com/th?id=OHR.Turku_ZH-CN6008877545_480x800.jpg"
+  },
+  "telegram": {
+    "archive": {
+      "UHD": {
+        "message_id": 4039,
+        "file_id": "BQACAgUAAx0EZTyx0QACD8djw7KxCYiT6aT1gHttbOLvb_WBTAACrAYAAoeiIFaNMMAH_wvJyC0E"
+      },
+      "1920x1080": {
+        "message_id": 4040,
+        "file_id": "BQACAgUAAx0EZTyx0QACD8hjw7KyJX3duxk2tUV9Htok_32WSgACrQYAAoeiIFbrONPcaBhFJC0E"
+      },
+      "1024x768": {
+        "message_id": 4041,
+        "file_id": "BQACAgUAAx0EZTyx0QACD8ljw7K0PyJB357dc9QCemfEQqh84QACrgYAAoeiIFape_o1lWYD0C0E"
+      },
+      "1366x768": {
+        "message_id": 4042,
+        "file_id": "BQACAgUAAx0EZTyx0QACD8pjw7K1klByMX3hrSTB11Zd85n7VQACrwYAAoeiIFbuHJNatYDfFy0E"
+      },
+      "800x480": {
+        "message_id": 4043,
+        "file_id": "BQACAgUAAx0EZTyx0QACD8tjw7K2ywvzeIM4xeriSG6Ktwea_AACsAYAAoeiIFabPM-J7Mm8si0E"
+      },
+      "1080x1920": {
+        "message_id": 4044,
+        "file_id": "BQACAgUAAx0EZTyx0QACD8xjw7K4382zAwU3cLfVavcpKQl5TwACsQYAAoeiIFb9fAziLlYcsC0E"
+      },
+      "480x800": {
+        "message_id": 4045,
+        "file_id": "BQACAgUAAx0EZTyx0QACD81jw7K5ERdd0ng-JMx9HUzBq6VKXAACsgYAAoeiIFaM56_MI3cJvC0E"
+      }
+    },
+    "photo": [
+      {
+        "file_id": "AgACAgUAAx0EZTyx0QACD89jw7K7J7eel3YLf3ejpVKt8g_WcwACyLMxG4eiIFaTUvvjlDtbZwEAAwIAA3MAAy0E",
+        "file_unique_id": "AQADyLMxG4eiIFZ4",
+        "file_size": 1019,
+        "width": 90,
+        "height": 51
+      },
+      {
+        "file_id": "AgACAgUAAx0EZTyx0QACD89jw7K7J7eel3YLf3ejpVKt8g_WcwACyLMxG4eiIFaTUvvjlDtbZwEAAwIAA20AAy0E",
+        "file_unique_id": "AQADyLMxG4eiIFZy",
+        "file_size": 14447,
+        "width": 320,
+        "height": 180
+      },
+      {
+        "file_id": "AgACAgUAAx0EZTyx0QACD89jw7K7J7eel3YLf3ejpVKt8g_WcwACyLMxG4eiIFaTUvvjlDtbZwEAAwIAA3gAAy0E",
+        "file_unique_id": "AQADyLMxG4eiIFZ9",
+        "file_size": 79405,
+        "width": 800,
+        "height": 450
+      },
+      {
+        "file_id": "AgACAgUAAx0EZTyx0QACD89jw7K7J7eel3YLf3ejpVKt8g_WcwACyLMxG4eiIFaTUvvjlDtbZwEAAwIAA3kAAy0E",
+        "file_unique_id": "AQADyLMxG4eiIFZ-",
+        "file_size": 206464,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "file_id": "AgACAgUAAx0EZTyx0QACD89jw7K7J7eel3YLf3ejpVKt8g_WcwACyLMxG4eiIFaTUvvjlDtbZwEAAwIAA3cAAy0E",
+        "file_unique_id": "AQADyLMxG4eiIFZ8",
+        "file_size": 326426,
+        "width": 1920,
+        "height": 1080
+      }
+    ]
+  }
+}
