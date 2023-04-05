@@ -1,0 +1,87 @@
+{
+  "name": "OHR.QingMing2023_ZH-CN6951199028",
+  "urlbase": "/th?id=OHR.QingMing2023_ZH-CN6951199028",
+  "copyright_cn": "杭州西湖水墨意境般的风景，浙江省，中国 (© zhangshuang/Getty Images)",
+  "copyrightlink": "/search?q=%e6%b8%85%e6%98%8e%e8%8a%82&form=hpcapt&mkt=zh-cn",
+  "desc": "",
+  "copyright": "West Lake Ink Landscape, Hangzhou ,China (© zhangshuang/Getty Images)",
+  "raw_size": "6016x3384",
+  "url": {
+    "UHD": "https://www.bing.com/th?id=OHR.QingMing2023_ZH-CN6951199028_UHD.jpg",
+    "1920x1080": "https://www.bing.com/th?id=OHR.QingMing2023_ZH-CN6951199028_1920x1080.jpg",
+    "1024x768": "https://www.bing.com/th?id=OHR.QingMing2023_ZH-CN6951199028_1024x768.jpg",
+    "1366x768": "https://www.bing.com/th?id=OHR.QingMing2023_ZH-CN6951199028_1366x768.jpg",
+    "800x480": "https://www.bing.com/th?id=OHR.QingMing2023_ZH-CN6951199028_800x480.jpg",
+    "1080x1920": "https://www.bing.com/th?id=OHR.QingMing2023_ZH-CN6951199028_1080x1920.jpg",
+    "480x800": "https://www.bing.com/th?id=OHR.QingMing2023_ZH-CN6951199028_480x800.jpg"
+  },
+  "telegram": {
+    "archive": {
+      "UHD": {
+        "message_id": 4939,
+        "file_id": "BQACAgUAAx0EZTyx0QACE0tkLSq8ueJFOFvybg4LRGnfjeZAjgACnAgAAvleaFW88JXUECUHNi8E"
+      },
+      "1920x1080": {
+        "message_id": 4940,
+        "file_id": "BQACAgUAAx0EZTyx0QACE0xkLSq-Qc0YSjCPOF8admkJ0uUfPwACnQgAAvleaFV742jwKiCfry8E"
+      },
+      "1024x768": {
+        "message_id": 4941,
+        "file_id": "BQACAgUAAx0EZTyx0QACE01kLSq_yFg1TTdqXvLfmsG7w9BAkwACnggAAvleaFX97X7MMX2ddy8E"
+      },
+      "1366x768": {
+        "message_id": 4942,
+        "file_id": "BQACAgUAAx0EZTyx0QACE05kLSrB0VMp2CjA4Qoam4LCBxanvwACnwgAAvleaFU8_pVym225RC8E"
+      },
+      "800x480": {
+        "message_id": 4943,
+        "file_id": "BQACAgUAAx0EZTyx0QACE09kLSrC77QjKqidswewixQAASKoY4kAAqAIAAL5XmhVxfgtNvvdtjovBA"
+      },
+      "1080x1920": {
+        "message_id": 4944,
+        "file_id": "BQACAgUAAx0EZTyx0QACE1BkLSrETVto6GR2lV6iCX9VqOTWpgACoQgAAvleaFX6Y5ypPyINRS8E"
+      },
+      "480x800": {
+        "message_id": 4945,
+        "file_id": "BQACAgUAAx0EZTyx0QACE1FkLSrFR2at7cFSlkehm44ZP320TQACoggAAvleaFWBy-RakVBFuy8E"
+      }
+    },
+    "photo": [
+      {
+        "file_id": "AgACAgUAAx0EZTyx0QACE1NkLSrIueBGuQ1mWqlX6_szPIjjHQACqLUxG_leaFVk2Al2Zfzu4gEAAwIAA3MAAy8E",
+        "file_unique_id": "AQADqLUxG_leaFV4",
+        "file_size": 1052,
+        "width": 90,
+        "height": 51
+      },
+      {
+        "file_id": "AgACAgUAAx0EZTyx0QACE1NkLSrIueBGuQ1mWqlX6_szPIjjHQACqLUxG_leaFVk2Al2Zfzu4gEAAwIAA20AAy8E",
+        "file_unique_id": "AQADqLUxG_leaFVy",
+        "file_size": 12225,
+        "width": 320,
+        "height": 180
+      },
+      {
+        "file_id": "AgACAgUAAx0EZTyx0QACE1NkLSrIueBGuQ1mWqlX6_szPIjjHQACqLUxG_leaFVk2Al2Zfzu4gEAAwIAA3gAAy8E",
+        "file_unique_id": "AQADqLUxG_leaFV9",
+        "file_size": 54479,
+        "width": 800,
+        "height": 450
+      },
+      {
+        "file_id": "AgACAgUAAx0EZTyx0QACE1NkLSrIueBGuQ1mWqlX6_szPIjjHQACqLUxG_leaFVk2Al2Zfzu4gEAAwIAA3kAAy8E",
+        "file_unique_id": "AQADqLUxG_leaFV-",
+        "file_size": 132741,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "file_id": "AgACAgUAAx0EZTyx0QACE1NkLSrIueBGuQ1mWqlX6_szPIjjHQACqLUxG_leaFVk2Al2Zfzu4gEAAwIAA3cAAy8E",
+        "file_unique_id": "AQADqLUxG_leaFV8",
+        "file_size": 264649,
+        "width": 1920,
+        "height": 1080
+      }
+    ]
+  }
+}
