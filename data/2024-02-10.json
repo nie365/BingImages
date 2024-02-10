@@ -1,0 +1,87 @@
+{
+  "name": "OHR.SpringFestival2024_ZH-CN7514007541",
+  "urlbase": "/th?id=OHR.SpringFestival2024_ZH-CN7514007541",
+  "copyright_cn": "中国舞狮，大年初一 (© SENEZ/Getty Images)",
+  "copyrightlink": "/search?q=%e6%98%a5%e8%8a%82&form=hpcapt&mkt=zh-cn",
+  "desc": "",
+  "copyright": "Chinese lion dance, Spring Festival, China (© SENEZ/Getty Images)",
+  "raw_size": "4439x2497",
+  "url": {
+    "UHD": "https://www.bing.com/th?id=OHR.SpringFestival2024_ZH-CN7514007541_UHD.jpg",
+    "1920x1080": "https://www.bing.com/th?id=OHR.SpringFestival2024_ZH-CN7514007541_1920x1080.jpg",
+    "1024x768": "https://www.bing.com/th?id=OHR.SpringFestival2024_ZH-CN7514007541_1024x768.jpg",
+    "1366x768": "https://www.bing.com/th?id=OHR.SpringFestival2024_ZH-CN7514007541_1366x768.jpg",
+    "800x480": "https://www.bing.com/th?id=OHR.SpringFestival2024_ZH-CN7514007541_800x480.jpg",
+    "1080x1920": "https://www.bing.com/th?id=OHR.SpringFestival2024_ZH-CN7514007541_1080x1920.jpg",
+    "480x800": "https://www.bing.com/th?id=OHR.SpringFestival2024_ZH-CN7514007541_480x800.jpg"
+  },
+  "telegram": {
+    "archive": {
+      "UHD": {
+        "message_id": 7920,
+        "file_id": "BQACAgUAAx0EZTyx0QACHvBlxy0jiP6F5LMtRYTTMeYir9GvMQACwg0AAng9OFY3h8BBuoMc3TQE"
+      },
+      "1920x1080": {
+        "message_id": 7921,
+        "file_id": "BQACAgUAAx0EZTyx0QACHvFlxy0lsGLsV9nxjUuEfVsa7zMXaQACww0AAng9OFb0xLXEhExGLzQE"
+      },
+      "1024x768": {
+        "message_id": 7922,
+        "file_id": "BQACAgUAAx0EZTyx0QACHvJlxy0niIbX5oOosK59QeV5gkAxjAACxA0AAng9OFY8-Uhc-yz0RzQE"
+      },
+      "1366x768": {
+        "message_id": 7923,
+        "file_id": "BQACAgUAAx0EZTyx0QACHvNlxy0oB9PVvAajH6Q8osnVRYGhIQACxQ0AAng9OFbCUDNn9rJQCTQE"
+      },
+      "800x480": {
+        "message_id": 7924,
+        "file_id": "BQACAgUAAx0EZTyx0QACHvRlxy0qg38QXzx5i81GXiwqrmF5WAACxg0AAng9OFbilVIsSr31xzQE"
+      },
+      "1080x1920": {
+        "message_id": 7925,
+        "file_id": "BQACAgUAAx0EZTyx0QACHvVlxy0sjJwuDsjKW-PK6JvlGoUBKgACxw0AAng9OFar1DkOS531MzQE"
+      },
+      "480x800": {
+        "message_id": 7926,
+        "file_id": "BQACAgUAAx0EZTyx0QACHvZlxy0tS6xaKcAGVxy-8xKFUqEWSwACyA0AAng9OFZszBuAZO86DDQE"
+      }
+    },
+    "photo": [
+      {
+        "file_id": "AgACAgUAAx0EZTyx0QACHvhlxy0wTU8QEss5sJYdzK5iWKtGNgACn7oxG3g9OFYmh2uxPam1ZQEAAwIAA3MAAzQE",
+        "file_unique_id": "AQADn7oxG3g9OFZ4",
+        "file_size": 1617,
+        "width": 90,
+        "height": 51
+      },
+      {
+        "file_id": "AgACAgUAAx0EZTyx0QACHvhlxy0wTU8QEss5sJYdzK5iWKtGNgACn7oxG3g9OFYmh2uxPam1ZQEAAwIAA20AAzQE",
+        "file_unique_id": "AQADn7oxG3g9OFZy",
+        "file_size": 27920,
+        "width": 320,
+        "height": 180
+      },
+      {
+        "file_id": "AgACAgUAAx0EZTyx0QACHvhlxy0wTU8QEss5sJYdzK5iWKtGNgACn7oxG3g9OFYmh2uxPam1ZQEAAwIAA3gAAzQE",
+        "file_unique_id": "AQADn7oxG3g9OFZ9",
+        "file_size": 126583,
+        "width": 800,
+        "height": 450
+      },
+      {
+        "file_id": "AgACAgUAAx0EZTyx0QACHvhlxy0wTU8QEss5sJYdzK5iWKtGNgACn7oxG3g9OFYmh2uxPam1ZQEAAwIAA3kAAzQE",
+        "file_unique_id": "AQADn7oxG3g9OFZ-",
+        "file_size": 285217,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "file_id": "AgACAgUAAx0EZTyx0QACHvhlxy0wTU8QEss5sJYdzK5iWKtGNgACn7oxG3g9OFYmh2uxPam1ZQEAAwIAA3cAAzQE",
+        "file_unique_id": "AQADn7oxG3g9OFZ8",
+        "file_size": 327129,
+        "width": 1920,
+        "height": 1080
+      }
+    ]
+  }
+}
