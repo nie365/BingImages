@@ -1,46 +1,58 @@
 name: Update Bing image
 
-# Controls when the action will run. Triggers the workflow on push or pull request
-# events but only for the master branch
 on:
   workflow_dispatch:
   push:
     branches: [ master ]
-    paths: 
+    paths:
       - 'script/crawler.py'
       - '.github/workflows/update.yml'
   schedule:
-    # 15:00 every day Asia/Shanghai
+    # 每天北京时间 15:00 运行 (7:00 UTC)
     - cron: "0 7 * * *"
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   build:
-    # The type of runner that the job will run on
     runs-on: ubuntu-latest
+    # 设置权限，确保 Action 有权写入仓库
+    permissions:
+      contents: write
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      # 1. 检出代码
       - name: Checkout code
-        uses: actions/checkout@v2
-
-      - name: Set up Python 3.8
-        uses: actions/setup-python@v2
+        uses: actions/checkout@v4
         with:
-          python-version: 3.8
+          fetch-depth: 1 # 只拉取最新一次提交，节省空间
 
+      # 2. 🔥 核心优化：清理磁盘空间
+      # 这一步能释放出约 20GB-30GB 的空间
+      - name: Free Disk Space (Ubuntu)
+        uses: jlumbroso/free-disk-space@main
+        with:
+          tool-cache: true
+          android: true
+          dotnet: true
+          haskell: true
+          large-packages: true
+          docker-images: true
+          swap-storage: true
+
+      # 3. 设置 Python 环境
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12' # 升级到较新的 Python 版本
+          cache: 'pip' # 自动缓存依赖，加快下次运行速度
+
+      # 4. 安装依赖
       - name: Install dependencies
         run: |
           cd script
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
-      
-      - name: Echo the event name
-        run: |
-          echo ${{ github.event }}
-          echo ${{ github.event_name }}
-      
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      # 5. 运行爬虫 (带 wait)
       - name: Update image with wait
         if: github.event_name == 'schedule'
         run: |
@@ -51,7 +63,8 @@ jobs:
           BOTTOKEN: ${{ secrets.BOTTOKEN }}
           CHANNELIDMAIN: ${{ secrets.CHANNELIDMAIN }}
           CHANNELIDARCHIVE: ${{ secrets.CHANNELIDARCHIVE }}
-          
+
+      # 6. 运行爬虫 (不带 wait)
       - name: Update image without wait
         if: github.event_name != 'schedule'
         run: |
@@ -63,20 +76,20 @@ jobs:
           CHANNELIDMAIN: ${{ secrets.CHANNELIDMAIN }}
           CHANNELIDARCHIVE: ${{ secrets.CHANNELIDARCHIVE }}
 
+      # 7. 整理文件
       - name: Move files to archive
         run: |
-          pwd
-          mkdir archive
-          mv data archive
-          mv img archive
-      
+          mkdir -p archive
+          # 使用 cp -r 或 mv，增加 -f 强制覆盖防止交互
+          [ -d data ] && mv -f data archive/
+          [ -d img ] && mv -f img archive/
+
+      # 8. 🚀 部署到 archive 分支
       - name: Push archives
-        uses: JamesIves/github-pages-deploy-action@3.7.1
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          GIT_CONFIG_NAME: Bing Image Bot
-          GIT_CONFIG_EMAIL: action@github.com
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: archive # The branch the action should deploy to.
-          FOLDER: archive # The folder the action should deploy.
-          CLEAN: false # Don't automatically remove deleted files from the deploy branch.
-          COMMIT_MESSAGE: Update Bing images.
+          folder: archive # 要部署的文件夹
+          branch: archive # 目标分支
+          token: ${{ secrets.GITHUB_TOKEN }}
+          clean: false # 关键：设为 false 以保留 archive 分支上的旧图片
+          commit_message: "Update Bing images [skip ci]"
