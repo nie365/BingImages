@@ -45,11 +45,20 @@ jobs:
           python-version: '3.12' # 升级到较新的 Python 版本
           cache: 'pip' # 自动缓存依赖，加快下次运行速度
 
-      # 4. 安装依赖
-      - name: Install dependencies
+# 4. 安装系统依赖和 Python 依赖
+      - name: Install System and Python dependencies
         run: |
+          # 1. 安装编译旧版 Pillow (8.3.2) 所需的底层图像库
+          sudo apt-get update
+          sudo apt-get install -y libjpeg-dev zlib1g-dev
+          
+          # 2. 升级 pip 并安装核心库
           cd script
           python -m pip install --upgrade pip
+          # 显式安装 undetected-chromedriver，防止 requirements.txt 里漏掉
+          pip install undetected-chromedriver beautifulsoup4 requests
+          
+          # 3. 安装剩余的依赖
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
       # 5. 运行爬虫 (带 wait)
